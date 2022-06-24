@@ -1,0 +1,69 @@
+ @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+*{
+
+    margin: 0
+}
+
+
+
+.contenedor{
+    background:url(ds.jpg);
+    background-size: 92%;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+p{
+    font-family: "Fredoka One";
+    color: rgb(255, 0, 166);
+    font-size: xx-large;
+    padding:17%;
+
+}
+
+
+
+button{
+    color: #fbfbfb;
+    background:  rgb(255, 0, 166);
+    font-family: "Fredoka One";
+    font-size: xx-large;
+    padding: 0.7em;
+    border: #fbfbfb;
+}
+
+#yes{
+    font-family: "Fredoka One";
+    transform: translate(-100%,0);
+
+}
+
+#no{
+    font-family: "Fredoka One";
+    position: absolute;
+}
+
+.modal-container{
+display: flex;
+background-color:  rgb(206, 163, 255);
+align-items: center;
+justify-content: center;
+position: fixed;
+pointer-events: none;
+top:0;
+left: 0;
+height: 100vh;
+width: 100vw;
+
+}
+
+.modal {
+background-color:  rgb(206, 163, 255);
+width: 60px;
+max-width: 100;
+
+
+
+}
